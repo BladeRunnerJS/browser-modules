@@ -1,8 +1,11 @@
 <script type="text/javascript" src="browser-modules.js"></script>
 <script type="text/javascript" src="install.js"></script>
 
-The _browser-modules_ library is a synchronous, in-browser implementation of [CommonJs](http://wiki.commonjs.org/wiki/Modules/1.1). If you've landed here by chance, then it's likely your needs might be better served by [browserify](http://browserify.org/).
+# browser-modules
 
+[![Build Status](https://travis-ci.org/BladeRunnerJS/browser-modules.png)](https://travis-ci.org/BladeRunnerJS/browser-modules)
+
+The _browser-modules_ library is a synchronous, in-browser implementation of [CommonJs](http://wiki.commonjs.org/wiki/Modules/1.1). If you've landed here by chance, then it's likely your needs might be better served by [browserify](http://browserify.org/).
 
 ## Installing
 
