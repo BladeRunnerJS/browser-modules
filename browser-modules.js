@@ -336,7 +336,7 @@
 
 	var defaultRealm = new Realm(global.require || globalResolve);
 
-	if (typeof module !== 'undefined') {
+	if (typeof module !== 'undefined' && !global.window) {
 		// for node.js
 		module.exports = defaultRealm;
 	} else {
